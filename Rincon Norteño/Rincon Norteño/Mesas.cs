@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Rincon_Norteño
 {
-    public partial class Form1 : Form
+    public partial class Mesas : Form
     {
-        public Form1()
+        public Mesas()
         {
             InitializeComponent();
+        }
+
+        private void Mesas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
