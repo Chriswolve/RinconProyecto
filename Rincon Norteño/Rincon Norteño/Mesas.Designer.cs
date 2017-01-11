@@ -78,6 +78,7 @@
             this.B33 = new System.Windows.Forms.Button();
             this.B50 = new System.Windows.Forms.Button();
             this.B41 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // B01
@@ -630,6 +631,16 @@
             this.B41.Text = "41";
             this.B41.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Image = global::Rincon_Norteño.Properties.Resources.atras;
+            this.button1.Location = new System.Drawing.Point(1736, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(166, 96);
+            this.button1.TabIndex = 50;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Mesas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -637,6 +648,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(1914, 1045);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.B50);
             this.Controls.Add(this.B41);
             this.Controls.Add(this.B49);
@@ -747,5 +759,6 @@
         private System.Windows.Forms.Button B33;
         private System.Windows.Forms.Button B50;
         private System.Windows.Forms.Button B41;
+        private System.Windows.Forms.Button button1;
     }
 }

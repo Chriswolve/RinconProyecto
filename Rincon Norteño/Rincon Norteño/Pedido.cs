@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace Rincon_Norteño
 {
-    public partial class Mesas : Form
+    public partial class Pedido : Form
     {
-        public Mesas()
+        public Pedido()
         {
             InitializeComponent();
         }
 
-        private void Mesas_Load(object sender, EventArgs e)
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Login frm = new Login();
-            frm.Show();
         }
     }
 }
