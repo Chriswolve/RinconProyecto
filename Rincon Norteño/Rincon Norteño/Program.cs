@@ -16,7 +16,7 @@ namespace Rincon_Norteño
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Pedido());
+            Application.Run(new Login());
         }
     }
 }
