@@ -8,18 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.OleDb;
 
 namespace Rincon_Norteño
 {
     public partial class Login : Form
     {
 
-<<<<<<< HEAD
- 
-=======
         OleDbConnection connection;//Representa una conexión abierta a un origen de datos
         string connectionString;
+
         public string VerificarUsuario(string code)
         {
             try
@@ -47,13 +45,13 @@ namespace Rincon_Norteño
 
         }
 
->>>>>>> origin/master
+
 
         public Login()
         {
 
             InitializeComponent();
-           
+            connectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source = "+ Directory.GetCurrentDirectory()+ @"\DB_RINCON.mdb";
            
 
 
@@ -134,9 +132,8 @@ namespace Rincon_Norteño
         private void BotonEntrar_Click(object sender, EventArgs e)
         {
             string codigo = TextoCodigo.Text;
-            Usuario user = new Usuario(codigo);
-            if (!user.isnull){
-                MessageBox.Show("Codigo :" +user.CODE+ "\n Nombre :"+ user.NAME + "\n Rol : " + user.ROL );
+            if(VerificarUsuario(codigo).Length > 0){
+                MessageBox.Show("Bienvenido");
             }
             else
             {

@@ -11,7 +11,7 @@ namespace Rincon_Norteño
     class Usuario
     {
         private string name;
-        
+
         private string code;
         private char role;
         public bool isnull;
@@ -36,11 +36,11 @@ namespace Rincon_Norteño
                 while (reader.Read())
                 {
 
-                    this.name =  reader[2].ToString();
+                    this.name = reader[2].ToString();
                     this.role = reader[3].ToString()[0];
                 }
                 //verificar si existe el usuario en la bd
-                if(!reader.HasRows)
+                if (!reader.HasRows)
                 {
                     this.isnull = true;
                 }
@@ -66,7 +66,7 @@ namespace Rincon_Norteño
             }
         }
 
-        public char ROL 
+        public char ROL
         {
             get
             {
