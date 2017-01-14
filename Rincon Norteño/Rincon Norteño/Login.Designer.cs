@@ -50,10 +50,10 @@
             // 
             // Logo
             // 
-            this.Logo.Location = new System.Drawing.Point(9, 10);
-            this.Logo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Logo.Location = new System.Drawing.Point(12, 12);
+            this.Logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(633, 760);
+            this.Logo.Size = new System.Drawing.Size(844, 935);
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
             // 
@@ -61,11 +61,11 @@
             // 
             this.TextoCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextoCodigo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.TextoCodigo.Location = new System.Drawing.Point(917, 10);
-            this.TextoCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TextoCodigo.Location = new System.Drawing.Point(1223, 12);
+            this.TextoCodigo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TextoCodigo.Multiline = true;
             this.TextoCodigo.Name = "TextoCodigo";
-            this.TextoCodigo.Size = new System.Drawing.Size(282, 123);
+            this.TextoCodigo.Size = new System.Drawing.Size(375, 150);
             this.TextoCodigo.TabIndex = 1;
             this.TextoCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -73,10 +73,10 @@
             // 
             this.Boton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton7.ForeColor = System.Drawing.Color.Blue;
-            this.Boton7.Location = new System.Drawing.Point(875, 136);
-            this.Boton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton7.Location = new System.Drawing.Point(1167, 167);
+            this.Boton7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton7.Name = "Boton7";
-            this.Boton7.Size = new System.Drawing.Size(112, 122);
+            this.Boton7.Size = new System.Drawing.Size(149, 150);
             this.Boton7.TabIndex = 2;
             this.Boton7.Text = "7";
             this.Boton7.UseVisualStyleBackColor = true;
@@ -86,10 +86,10 @@
             // 
             this.Boton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton8.ForeColor = System.Drawing.Color.Blue;
-            this.Boton8.Location = new System.Drawing.Point(999, 136);
-            this.Boton8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton8.Location = new System.Drawing.Point(1332, 167);
+            this.Boton8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton8.Name = "Boton8";
-            this.Boton8.Size = new System.Drawing.Size(112, 122);
+            this.Boton8.Size = new System.Drawing.Size(149, 150);
             this.Boton8.TabIndex = 3;
             this.Boton8.Text = "8";
             this.Boton8.UseVisualStyleBackColor = true;
@@ -99,10 +99,10 @@
             // 
             this.Boton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton9.ForeColor = System.Drawing.Color.Blue;
-            this.Boton9.Location = new System.Drawing.Point(1120, 136);
-            this.Boton9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton9.Location = new System.Drawing.Point(1493, 167);
+            this.Boton9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton9.Name = "Boton9";
-            this.Boton9.Size = new System.Drawing.Size(112, 122);
+            this.Boton9.Size = new System.Drawing.Size(149, 150);
             this.Boton9.TabIndex = 4;
             this.Boton9.Text = "9";
             this.Boton9.UseVisualStyleBackColor = true;
@@ -112,10 +112,10 @@
             // 
             this.Boton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton4.ForeColor = System.Drawing.Color.Blue;
-            this.Boton4.Location = new System.Drawing.Point(875, 263);
-            this.Boton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton4.Location = new System.Drawing.Point(1167, 324);
+            this.Boton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton4.Name = "Boton4";
-            this.Boton4.Size = new System.Drawing.Size(112, 122);
+            this.Boton4.Size = new System.Drawing.Size(149, 150);
             this.Boton4.TabIndex = 5;
             this.Boton4.Text = "4";
             this.Boton4.UseVisualStyleBackColor = true;
@@ -125,10 +125,10 @@
             // 
             this.Boton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton5.ForeColor = System.Drawing.Color.Blue;
-            this.Boton5.Location = new System.Drawing.Point(999, 263);
-            this.Boton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton5.Location = new System.Drawing.Point(1332, 324);
+            this.Boton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton5.Name = "Boton5";
-            this.Boton5.Size = new System.Drawing.Size(112, 122);
+            this.Boton5.Size = new System.Drawing.Size(149, 150);
             this.Boton5.TabIndex = 6;
             this.Boton5.Text = "5";
             this.Boton5.UseVisualStyleBackColor = true;
@@ -138,10 +138,10 @@
             // 
             this.Boton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton6.ForeColor = System.Drawing.Color.Blue;
-            this.Boton6.Location = new System.Drawing.Point(1120, 263);
-            this.Boton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton6.Location = new System.Drawing.Point(1493, 324);
+            this.Boton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton6.Name = "Boton6";
-            this.Boton6.Size = new System.Drawing.Size(112, 122);
+            this.Boton6.Size = new System.Drawing.Size(149, 150);
             this.Boton6.TabIndex = 7;
             this.Boton6.Text = "6";
             this.Boton6.UseVisualStyleBackColor = true;
@@ -151,10 +151,10 @@
             // 
             this.Boton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton1.ForeColor = System.Drawing.Color.Blue;
-            this.Boton1.Location = new System.Drawing.Point(875, 390);
-            this.Boton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton1.Location = new System.Drawing.Point(1167, 480);
+            this.Boton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton1.Name = "Boton1";
-            this.Boton1.Size = new System.Drawing.Size(112, 122);
+            this.Boton1.Size = new System.Drawing.Size(149, 150);
             this.Boton1.TabIndex = 8;
             this.Boton1.Text = "1";
             this.Boton1.UseVisualStyleBackColor = true;
@@ -164,10 +164,10 @@
             // 
             this.Boton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton2.ForeColor = System.Drawing.Color.Blue;
-            this.Boton2.Location = new System.Drawing.Point(999, 390);
-            this.Boton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton2.Location = new System.Drawing.Point(1332, 480);
+            this.Boton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton2.Name = "Boton2";
-            this.Boton2.Size = new System.Drawing.Size(112, 122);
+            this.Boton2.Size = new System.Drawing.Size(149, 150);
             this.Boton2.TabIndex = 9;
             this.Boton2.Text = "2";
             this.Boton2.UseVisualStyleBackColor = true;
@@ -177,10 +177,10 @@
             // 
             this.Boton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton3.ForeColor = System.Drawing.Color.Blue;
-            this.Boton3.Location = new System.Drawing.Point(1120, 390);
-            this.Boton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton3.Location = new System.Drawing.Point(1493, 480);
+            this.Boton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton3.Name = "Boton3";
-            this.Boton3.Size = new System.Drawing.Size(112, 122);
+            this.Boton3.Size = new System.Drawing.Size(149, 150);
             this.Boton3.TabIndex = 10;
             this.Boton3.Text = "3";
             this.Boton3.UseVisualStyleBackColor = true;
@@ -190,10 +190,10 @@
             // 
             this.BotonPunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonPunto.ForeColor = System.Drawing.Color.Blue;
-            this.BotonPunto.Location = new System.Drawing.Point(875, 517);
-            this.BotonPunto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BotonPunto.Location = new System.Drawing.Point(1167, 636);
+            this.BotonPunto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BotonPunto.Name = "BotonPunto";
-            this.BotonPunto.Size = new System.Drawing.Size(112, 122);
+            this.BotonPunto.Size = new System.Drawing.Size(149, 150);
             this.BotonPunto.TabIndex = 11;
             this.BotonPunto.Text = ".";
             this.BotonPunto.UseVisualStyleBackColor = true;
@@ -203,10 +203,10 @@
             // 
             this.Boton0.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boton0.ForeColor = System.Drawing.Color.Blue;
-            this.Boton0.Location = new System.Drawing.Point(999, 517);
-            this.Boton0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Boton0.Location = new System.Drawing.Point(1332, 636);
+            this.Boton0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Boton0.Name = "Boton0";
-            this.Boton0.Size = new System.Drawing.Size(112, 122);
+            this.Boton0.Size = new System.Drawing.Size(149, 150);
             this.Boton0.TabIndex = 12;
             this.Boton0.Text = "0";
             this.Boton0.UseVisualStyleBackColor = true;
@@ -216,10 +216,10 @@
             // 
             this.BotonBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonBorrar.ForeColor = System.Drawing.Color.Blue;
-            this.BotonBorrar.Location = new System.Drawing.Point(1120, 517);
-            this.BotonBorrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BotonBorrar.Location = new System.Drawing.Point(1493, 636);
+            this.BotonBorrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BotonBorrar.Name = "BotonBorrar";
-            this.BotonBorrar.Size = new System.Drawing.Size(112, 122);
+            this.BotonBorrar.Size = new System.Drawing.Size(149, 150);
             this.BotonBorrar.TabIndex = 13;
             this.BotonBorrar.Text = "<";
             this.BotonBorrar.UseVisualStyleBackColor = true;
@@ -229,10 +229,10 @@
             // 
             this.BotonEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonEntrar.ForeColor = System.Drawing.Color.Blue;
-            this.BotonEntrar.Location = new System.Drawing.Point(932, 644);
-            this.BotonEntrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BotonEntrar.Location = new System.Drawing.Point(1243, 793);
+            this.BotonEntrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BotonEntrar.Name = "BotonEntrar";
-            this.BotonEntrar.Size = new System.Drawing.Size(244, 61);
+            this.BotonEntrar.Size = new System.Drawing.Size(325, 75);
             this.BotonEntrar.TabIndex = 14;
             this.BotonEntrar.Text = "ENTRAR";
             this.BotonEntrar.UseVisualStyleBackColor = true;
@@ -242,10 +242,10 @@
             // 
             this.BotonEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonEntrada.ForeColor = System.Drawing.Color.Blue;
-            this.BotonEntrada.Location = new System.Drawing.Point(820, 724);
-            this.BotonEntrada.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BotonEntrada.Location = new System.Drawing.Point(1093, 891);
+            this.BotonEntrada.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BotonEntrada.Name = "BotonEntrada";
-            this.BotonEntrada.Size = new System.Drawing.Size(177, 67);
+            this.BotonEntrada.Size = new System.Drawing.Size(236, 82);
             this.BotonEntrada.TabIndex = 15;
             this.BotonEntrada.Text = "MARCAR ENTRADA";
             this.BotonEntrada.UseVisualStyleBackColor = true;
@@ -254,19 +254,19 @@
             // 
             this.BotonSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonSalida.ForeColor = System.Drawing.Color.Blue;
-            this.BotonSalida.Location = new System.Drawing.Point(1130, 724);
-            this.BotonSalida.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BotonSalida.Location = new System.Drawing.Point(1507, 891);
+            this.BotonSalida.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BotonSalida.Name = "BotonSalida";
-            this.BotonSalida.Size = new System.Drawing.Size(177, 67);
+            this.BotonSalida.Size = new System.Drawing.Size(236, 82);
             this.BotonSalida.TabIndex = 16;
             this.BotonSalida.Text = "MARCAR SALIDA";
             this.BotonSalida.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1022, 602);
+            this.ClientSize = new System.Drawing.Size(1399, 762);
             this.Controls.Add(this.BotonSalida);
             this.Controls.Add(this.BotonEntrada);
             this.Controls.Add(this.BotonEntrar);
@@ -284,7 +284,7 @@
             this.Controls.Add(this.Boton7);
             this.Controls.Add(this.TextoCodigo);
             this.Controls.Add(this.Logo);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.Text = "Rincón Norteño";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

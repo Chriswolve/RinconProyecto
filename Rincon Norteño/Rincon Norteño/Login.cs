@@ -16,7 +16,7 @@ namespace Rincon_Norteño
     {
 
         OleDbConnection connection;//Representa una conexión abierta a un origen de datos
-        string connectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:\Users\crist\OneDrive\Documentos\GitHub\RinconProyecto\Rincon Norteño\Rincon Norteño\DB_RINCON.mdb";
+        string connectionString;
         public string VerificarUsuario(string code)
         {
             try
