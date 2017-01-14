@@ -1,5 +1,5 @@
 ﻿using System;
-using System.IO;
+
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,42 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
+
 
 namespace Rincon_Norteño
 {
     public partial class Login : Form
     {
 
-        OleDbConnection connection;//Representa una conexión abierta a un origen de datos
-        string connectionString;
 
-        public string VerificarUsuario(string code)
-        {
-            try
-            {
-                
-                connection = new OleDbConnection(connectionString);
-                connection.Open();
-                OleDbDataReader reader = null;
-
-                OleDbCommand command = new OleDbCommand("SELECT * from  TA_USUARIO WHERE usu_codigo=@1", connection);
-                command.Parameters.AddWithValue("@1", code);
-                reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    return reader[2].ToString();
-                }
-
-            }
-            catch (System.Exception ex)
-            {
-                MessageBox.Show("ERROR:" + ex.Message);
-              
-            }
-            return "";
-
-        }
+      
 
 
 
@@ -51,9 +24,7 @@ namespace Rincon_Norteño
         {
 
             InitializeComponent();
-            connectionString = @"Provider = Microsoft.Jet.OLEDB.4.0; Data Source = "+ Directory.GetCurrentDirectory()+ @"\DB_RINCON.mdb";
-           
-
+    
 
         }
         public bool Tam_Cod()//Verifica si el tamaño del codigo es menor 
