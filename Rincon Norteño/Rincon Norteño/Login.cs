@@ -132,8 +132,10 @@ namespace Rincon_Norteño
         private void BotonEntrar_Click(object sender, EventArgs e)
         {
             string codigo = TextoCodigo.Text;
-            if(VerificarUsuario(codigo).Length > 0){
-                MessageBox.Show("Bienvenido");
+            Usuario user = new Usuario(codigo);
+            if (!user.isnull)
+            {
+                MessageBox.Show("Codigo :" + user.CODE + "\n Nombre :" + user.NAME + "\n Rol : " + user.ROL);
             }
             else
             {
